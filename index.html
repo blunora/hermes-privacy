@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0912">
-  <title>Hermes Privacy Policy — Blunora</title>
-  <meta name="description" content="Privacy information for the Hermes iOS app and connected services by Blunora.">
+  <title>HELYX Privacy Policy — Blunora</title>
+  <meta name="description" content="Privacy information for the HELYX iOS app and connected services by Blunora.">
   <style>
     :root {
       color-scheme: dark;
@@ -74,8 +74,8 @@
 <body>
   <header>
     <div class="wrap">
-      <a class="brand" href="#top" aria-label="Hermes by Blunora">
-        <img src="assets/hermes_wordmark.png" alt="Hermes">
+      <a class="brand" href="#top" aria-label="HELYX by Blunora">
+        <img src="assets/hermes_wordmark.png" alt="HELYX">
         <span>by Blunora</span>
       </a>
     </div>
@@ -85,8 +85,8 @@
     <div class="hero">
       <p class="eyebrow">Privacy</p>
       <h1>Privacy Policy</h1>
-      <p class="lede">This notice describes information handled by the original Hermes iOS app and the connected Hermes service, based on the features and source configuration reviewed for this policy.</p>
-      <div class="meta"><span>For the original Hermes iOS app and connected Hermes service</span><span>Last reviewed October 23, 2026</span></div>
+      <p class="lede">This notice describes information handled by the HELYX iOS app and the connected HELYX service, based on the features and source configuration reviewed for this policy.</p>
+      <div class="meta"><span>For the HELYX iOS app and connected HELYX service</span><span>Last reviewed October 23, 2026</span></div>
     </div>
 
     <nav aria-label="Policy sections">
@@ -96,46 +96,46 @@
     </nav>
 
     <section id="information">
-      <h2>Information Hermes handles</h2>
-      <p>Depending on the features you use, Hermes may handle:</p>
+      <h2>Information HELYX handles</h2>
+      <p>Depending on the features you use, HELYX may handle:</p>
       <ul>
         <li><strong>Photos and artwork:</strong> images you select or import into Photo Vault, plus generated previews, mockups, and print files.</li>
         <li><strong>Creator content:</strong> slideshow text, captions, hashtags, Pin preparation fields, draft associations, and selected preferences.</li>
-        <li><strong>Shop information:</strong> Etsy listing metadata and, when you request relevant Home, Orders, or Analytics views, information returned by Etsy through the configured Hermes backend.</li>
-        <li><strong>Connection data:</strong> an authenticated session credential supplied to the app for requests to the configured Hermes backend. In the inspected iOS code, this credential is passed to the native Library session in memory for authenticated requests.</li>
+        <li><strong>Shop information:</strong> Etsy listing metadata and, when you request relevant Home, Orders, or Analytics views, information returned by Etsy through the configured HELYX backend.</li>
+        <li><strong>Connection data:</strong> an authenticated session credential supplied to the app for requests to the configured HELYX backend. In the inspected iOS code, this credential is passed to the native Library session in memory for authenticated requests.</li>
         <li><strong>Operational diagnostics:</strong> the app and backend can record request outcomes, errors, and operational events. The inspected iOS target contains no advertising or third-party analytics SDK; this source review cannot rule out infrastructure-level logging by the live host or network providers.</li>
       </ul>
-      <p>Hermes does not need access to your entire Photos library to import an image: you select images through Apple's system picker. Saving exports to Photos uses the system's add-only permission.</p>
+      <p>HELYX does not need access to your entire Photos library to import an image: you select images through Apple's system picker. Saving exports to Photos uses the system's add-only permission.</p>
     </section>
 
     <section id="use">
       <h2>How information is used</h2>
-      <p>Hermes uses selected images and the content you enter to create previews, mockups, slideshow exports, and saved drafts. Local editing and rendering happen on your iPhone where the feature supports it. When you use connected features, the app sends the necessary request and content to the Hermes service.</p>
-      <p>The inspected backend stores app state, configuration, generated files, and service credentials in files under its configured data root; some Hermes orchestration records are JSON files. The deployment template mounts that root as persistent storage. The code does not define a universal retention schedule. Etsy requests are made by the backend using its Etsy integration, and Etsy handles submitted information under its own terms and privacy notice.</p>
-      <p>The app's Analytics views are for Etsy shop information returned by the connected service. They are not a claim that Hermes tracks your behavior for advertising.</p>
+      <p>HELYX uses selected images and the content you enter to create previews, mockups, slideshow exports, and saved drafts. Local editing and rendering happen on your iPhone where the feature supports it. When you use connected features, the app sends the necessary request and content to the HELYX service.</p>
+      <p>The inspected backend stores app state, configuration, generated files, and service credentials in files under its configured data root; some HELYX orchestration records are JSON files. The deployment template mounts that root as persistent storage. The code does not define a universal retention schedule. Etsy requests are made by the backend using its Etsy integration, and Etsy handles submitted information under its own terms and privacy notice.</p>
+      <p>The app's Analytics views are for Etsy shop information returned by the connected service. They are not a claim that HELYX tracks your behavior for advertising.</p>
     </section>
 
     <section id="storage">
       <h2>Where information is stored</h2>
-      <p>Photo Vault images, creator drafts, preferences, and related local records are stored in Hermes app storage on the device. The original app also uses its configured iOS App Group for data shared with its extension. Removing an item in Hermes affects the local record and files covered by that action; it does not necessarily remove a corresponding Etsy listing or backend copy.</p>
-      <p>The reviewed cloud deployment template stores service data on a persistent host volume mounted into the Hermes service. The repository does not identify the live hosting provider or the physical region used for the deployed volume. The source also does not specify a fixed retention period, backup lifetime, or automatic deletion schedule for all backend records and logs. These details depend on the operator's active deployment.</p>
-      <p>Etsy authorization tokens are read from backend-side credential files for Etsy API requests. The app uses a separate bearer credential to authenticate with Hermes; the iOS code passes that credential to native request code in memory. This review does not establish that Etsy credentials are stored in the iOS Keychain or encrypted at rest on the backend.</p>
+      <p>Photo Vault images, creator drafts, preferences, and related local records are stored in HELYX app storage on the device. The original app also uses its configured iOS App Group for data shared with its extension. Removing an item in HELYX affects the local record and files covered by that action; it does not necessarily remove a corresponding Etsy listing or backend copy.</p>
+      <p>The reviewed cloud deployment template stores service data on a persistent host volume mounted into the HELYX service. The repository does not identify the live hosting provider or the physical region used for the deployed volume. The source also does not specify a fixed retention period, backup lifetime, or automatic deletion schedule for all backend records and logs. These details depend on the operator's active deployment.</p>
+      <p>Etsy authorization tokens are read from backend-side credential files for Etsy API requests. The app uses a separate bearer credential to authenticate with HELYX; the iOS code passes that credential to native request code in memory. This review does not establish that Etsy credentials are stored in the iOS Keychain or encrypted at rest on the backend.</p>
     </section>
 
     <section id="sharing">
       <h2>Third-party services and sharing</h2>
-      <p>Hermes works with services you choose to connect or open, including Etsy. Their handling of information is governed by their own privacy terms. Hermes does not control those services.</p>
+      <p>HELYX works with services you choose to connect or open, including Etsy. Their handling of information is governed by their own privacy terms. HELYX does not control those services.</p>
       <ul>
-        <li><strong>Etsy:</strong> shop and listing information may be requested through the connected backend. Listing content and files are sent to Etsy when you use an Etsy workflow. Hermes source supports preparing Etsy drafts; publication or other Etsy actions depend on the specific feature and your confirmation.</li>
+        <li><strong>Etsy:</strong> shop and listing information may be requested through the connected backend. Listing content and files are sent to Etsy when you use an Etsy workflow. HELYX source supports preparing Etsy drafts; publication or other Etsy actions depend on the specific feature and your confirmation.</li>
         <li><strong>Apple Photos:</strong> selected images can be imported from Photos, and exports can be saved to Photos if you grant permission.</li>
         <li><strong>System sharing:</strong> when you choose a sharing destination, iOS passes the selected item to that destination. For example, Pinterest export currently shares the selected image through the iOS share interface.</li>
-        <li><strong>ChatGPT:</strong> if you choose ChatGPT in the share interface, the selected image and prepared prompt are handed to that app. Hermes does not make an OpenAI API request for this handoff.</li>
+        <li><strong>ChatGPT:</strong> if you choose ChatGPT in the share interface, the selected image and prepared prompt are handed to that app. HELYX does not make an OpenAI API request for this handoff.</li>
       </ul>
     </section>
 
     <section id="pinterest">
       <h2>Pinterest integration</h2>
-      <p>The original Hermes iOS app does not sign in to Pinterest, read Pinterest boards, or publish Pins through the Pinterest API. Its current export sends the selected image through Apple's system share interface. Pinterest's own app or share extension controls which fields it accepts; Hermes does not guarantee that Pin title, description, hashtags, or destination URL will be filled automatically.</p>
+      <p>The HELYX iOS app does not sign in to Pinterest, read Pinterest boards, or publish Pins through the Pinterest API. Its current export sends the selected image through Apple's system share interface. Pinterest's own app or share extension controls which fields it accepts; HELYX does not guarantee that Pin title, description, hashtags, or destination URL will be filled automatically.</p>
       <p>The source repository includes a separate Pinterest API agent and command-line authorization flow that can list boards or create Pins when supplied with an authorized token and app credentials. Those credentials are not present in the checked-in deployment template, and the cloud mobile API does not expose a Pinterest publishing route. I could not inspect the live server's persistent credential volume, so use of this separate provider by another operator process cannot be ruled out. It is not part of the iOS sharing workflow reviewed here.</p>
     </section>
 
@@ -147,21 +147,21 @@
 
     <section id="choices">
       <h2>Your choices and account disconnection</h2>
-      <p>You choose which photos to import, what content to create, and whether to use system sharing or connected Etsy features. A paired mobile device can be revoked through Hermes' device-management controls. Etsy authorization is managed by the operator from backend-side credentials and can also be revoked with Etsy; local app removal does not itself revoke it. Pinterest authorization is not used by the reviewed iOS sharing flow.</p>
-      <p>Signing out of or removing Hermes from your iPhone does not necessarily remove backend records or information already held by Etsy, Apple, Pinterest, or another service.</p>
+      <p>You choose which photos to import, what content to create, and whether to use system sharing or connected Etsy features. A paired mobile device can be revoked through HELYX' device-management controls. Etsy authorization is managed by the operator from backend-side credentials and can also be revoked with Etsy; local app removal does not itself revoke it. Pinterest authorization is not used by the reviewed iOS sharing flow.</p>
+      <p>Signing out of or removing HELYX from your iPhone does not necessarily remove backend records or information already held by Etsy, Apple, Pinterest, or another service.</p>
     </section>
 
     <section id="deletion">
       <h2>Data deletion requests</h2>
-      <p>Hermes provides feature-specific controls to remove some local posters, drafts, and files. The reviewed source does not provide a single account-wide deletion action that removes every device, backend, backup, and third-party copy. Deleting local content may not delete Etsy listings, backend files, logs, or third-party records.</p>
-      <p>To ask the operator about access to or deletion of information held by Hermes, use the privacy contact below. The operator will need to confirm identity and determine what information can be removed, including any copies subject to the deployment's backup and retention configuration. Do not include passwords or access tokens in a request.</p>
+      <p>HELYX provides feature-specific controls to remove some local posters, drafts, and files. The reviewed source does not provide a single account-wide deletion action that removes every device, backend, backup, and third-party copy. Deleting local content may not delete Etsy listings, backend files, logs, or third-party records.</p>
+      <p>To ask the operator about access to or deletion of information held by HELYX, use the privacy contact below. The operator will need to confirm identity and determine what information can be removed, including any copies subject to the deployment's backup and retention configuration. Do not include passwords or access tokens in a request.</p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
       <div class="card">
         <p><strong>Public brand:</strong> Blunora</p>
-        <p><strong>Application:</strong> Hermes</p>
+        <p><strong>Application:</strong> HELYX</p>
         <p><strong>Operator:</strong> Individual / Independent Developer</p>
         <p><strong>Legal operator:</strong> Donato Di Meo</p>
         <p><strong>Jurisdiction:</strong> North Carolina, United States</p>
@@ -172,7 +172,7 @@
 
     <footer>
       <p>This policy is based on a source-code and checked-in deployment-configuration review on October 23, 2026. It does not certify legal compliance, and deployment-specific practices not visible in those materials are described as unverified.</p>
-      <p>© 2026 Blunora · Hermes</p>
+      <p>© 2026 Blunora · HELYX</p>
     </footer>
   </main>
 </body>
